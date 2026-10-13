@@ -81,7 +81,6 @@ function Hero() {
             </p>
             <p>{"}"}</p>
             <p className="code-comment">
-              // Let's build something great!
             </p>
           </div>
         </div>

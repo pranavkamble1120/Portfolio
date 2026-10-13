@@ -1,16 +1,12 @@
 
 function Contact() {
-  // Replace these with your actual contact details
-//   const whatsappNumber = "8412801181";
+  
   const mobileNumber = "+918412801181";
   const email = "pranavkamble4678@gmail.com";
 
   const message =
     "Hello Pranav, I visited your portfolio and would like to discuss a website project.";
 
-//   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-//     message
-//   )}`;
 
   const emailLink = `mailto:${email}?subject=${encodeURIComponent(
     "Website Project Enquiry"
@@ -34,18 +30,7 @@ function Contact() {
         </p>
 
         <div className="contact-actions">
-          {/* <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            Chat on WhatsApp ↗
-          </a> */}
-
-          {/* <a href={emailLink} className="btn btn-outline">
-            Send an Email ↗
-          </a> */}
+          
         </div>
 
         <div className="contact-details">
@@ -54,17 +39,7 @@ function Contact() {
             <a href={`mailto:${email}`}>{email}</a>
           </div>
 
-          {/* <div>
-            <span>Mobile / WhatsApp</span>
-            <a
-              href={`https://wa.me/${whatsappNumber}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {mobileNumber}
-            </a>
-          </div> */}
-
+         
           <div>
             <span>GitHub</span>
             <a
